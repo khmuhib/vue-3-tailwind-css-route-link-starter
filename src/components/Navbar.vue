@@ -1,6 +1,6 @@
 <template>
     <header class="sticky top-0 bg-primary shadow-lg">
-        <nav class="container flex justify-between text-white py-6 mx-auto md:px-[0] px-[20px]">
+        <nav class="container flex justify-between text-white py-6 mx-auto md:px-[0] px-[20px] items-center">
             <div class="flex items-center gap-3">
                 <i class="fa-solid fa-sun text-2xl"></i>
                 <p class="text-2xl">Logo</p>
