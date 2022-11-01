@@ -1,6 +1,6 @@
 <template>
     <div>
-        Text Component
+        Text Component 100
     </div>
 </template>
 
