@@ -5,12 +5,20 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import { RouterView } from 'vue-router';
 import Navbar from './components/Navbar.vue';
 
+export default {
+  components: {
+    Navbar,
+    RouterView
+  }
+
+}
+
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
