@@ -3,9 +3,12 @@
     <div class="container bg-slate-500">
         <div class="">
             <SectionOneComponent></SectionOneComponent>
+            <scss-component></scss-component>
+        
             <div class="bg-green-500 h-[400px] relative w-[700px] m-auto">
                 <p
                     class="py-5 bg-red-400 rounded-full w-[200px] h-[200px] p-[50px] absolute top-0 left-0 right-0 bottom-0 m-auto">
+                    
                 </p>
             </div>
         </div>
@@ -41,12 +44,14 @@
 <script>
 import HomeCardComponent from '../components/Home/HomeCardComponent.vue';
 import SectionOneComponent from '../components/Home/SectionOneComponent.vue';
+import ScssComponent from '../components/ScssComponent.vue';
 import TextComponentVue from '../components/TextComponent.vue';
 export default {
   components: {
     TextComponentVue,
     SectionOneComponent,
-    HomeCardComponent
+    HomeCardComponent,
+    ScssComponent
   }
 
 }

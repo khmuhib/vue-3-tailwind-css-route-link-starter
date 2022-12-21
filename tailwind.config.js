@@ -13,10 +13,14 @@ module.exports = {
     },
     fontFamily: {
       Roboto: ["Roboto, sans-serif"]
-    }
+    },
+
   },
   plugins: [],
   corePlugins: {
     //preflight:false
-  }
+  },
+
 }
+
+

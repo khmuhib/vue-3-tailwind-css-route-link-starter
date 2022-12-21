@@ -1,0 +1,15 @@
+$bgColor: linen;
+
+.text {
+    background-color: $bgColor;
+    font-size: 30px;
+    display: table;
+    margin: auto;
+
+    span {
+        color: aqua;
+        font-weight: bolder;
+    }
+}
+
+
