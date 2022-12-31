@@ -1,19 +1,11 @@
 <template>
-  <div class="flex flex-col min-h-screen font-Roboto">
-    <Navbar/>
-    <RouterView/>
-  </div>
+<component :is="$route.meta.layout || 'div'"></component>
 </template>
 
 <script>
-import { RouterView } from 'vue-router';
-import Navbar from './components/Navbar.vue';
+
 
 export default {
-  components: {
-    Navbar,
-    RouterView
-  }
 
 }
 
